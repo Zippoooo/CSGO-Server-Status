@@ -70,13 +70,15 @@ client.on("message", async (message) => {
 
     const servers = config.servers
 
+    const embed = new Discord.MessageEmbed()
+    .setTimestamp()
+    .setTitle("Server Status")
+    .setColor(config.color)
     
     for (var server of servers) {
         let name = server.name
         let ip = server.ip
         let port = server.port
-        
-        
 
         const serverData = await query({
           type: 'csgo',
