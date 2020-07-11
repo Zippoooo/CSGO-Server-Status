@@ -17,6 +17,8 @@ if(config.color === "random") {
   config.color = Math.floor(Math.random()*16777215).toString(16);
 }
 
+
+
 let editor = async () => {
   console.clear()
     console.log("===Updating===")
@@ -43,16 +45,10 @@ let editor = async () => {
         if (!serverData) {
           embed.addField(`<:TickXAlpaca:726597463720460340> ${name}`, `**Server Closed** \n ${ip}:${port}`, config.true)
           console.log(`${name} Didn't Loaded!`)
-          return { online: false, server: this };
-        }
-        serverData.online = true;
-        serverData.server = this;
-        if(serverData.online) {
+        } else {
+          embed.addField(`<:TickVAlpaca:726542853714739240> ${name}`, `**Players:** ${serverData.players.length}/${serverData.maxplayers} \n **Map:** ${serverData.map} \n steam://connect/${serverData.connect}`, config.true)
             console.log(`${name} Loaded!`)
         }
-
-        embed.addField(`<:TickVAlpaca:726542853714739240> ${name}`, `**Players:** ${serverData.players.length}/${serverData.maxplayers} \n **Map:** ${serverData.map} \n steam://connect/${serverData.connect}`, config.true)
-
 
         }
         const channel = client.channels.cache.get(config.channelid);
@@ -79,6 +75,8 @@ client.on("message", async (message) => {
         let name = server.name
         let ip = server.ip
         let port = server.port
+        
+        
 
         const serverData = await query({
           type: 'csgo',
@@ -87,22 +85,16 @@ client.on("message", async (message) => {
           socketTimeout: 5000,
           udpTimeout: 10000
         }).catch(() => null);
-       
-        serverData.online = true;
-        serverData.server = this;
-        if(serverData.online) {
+        if (!serverData) {
+          embed.addField(`<:TickXAlpaca:726597463720460340> ${name}`, `**Server Closed** \n ${ip}:${port}`, config.true)
+          console.log(`${name} Didn't Loaded!`)
+        } else {
+          embed.addField(`<:TickVAlpaca:726542853714739240> ${name}`, `**Players:** ${serverData.players.length}/${serverData.maxplayers} \n **Map:** ${serverData.map} \n steam://connect/${serverData.connect}`, config.true)
             console.log(`${name} Loaded!`)
         }
 
-        embed.addField(`<:TickVAlpaca:726542853714739240> ${name}`, `**Players:** ${serverData.players.length}/${serverData.maxplayers} \n **Map:** ${serverData.map} \n steam://connect/${serverData.connect}`, true)
-
-
-if (!serverData) {
-          embed.addField(`<:TickXAlpaca:726597463720460340> ${name}`, `**Server Closed** \n ${ip}:${port}`, true)
-          console.log(`${name} Didn't Loaded!`)
         }
-        }
-      
+
         message.channel.send(embed).then(msg => {
          console.clear()
           console.log("Message-ID:", msg.id)
