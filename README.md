@@ -6,6 +6,7 @@
 <center><img src="https://i.imgur.com/35uyFmf.png" alt="Example"></center>
 
 # <center>Installation
+        </div>
 Ok, This part very easy, So just move on after the steps.
 
 <h2><center>Config</center></h2>
@@ -118,4 +119,4 @@ Then the channel id
 Now restart the bot. (Close the RUN.bat File and open it again.)
 
 <center><h1>We're doneeee</h1>
-</div>
+
