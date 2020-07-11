@@ -36,6 +36,6 @@ We accept only <strong>Hex Colors</strong> More hex color code you can find <a h
 + config.color = "#FF0000" // That yellowwwwww
 ```
 
-```
-<strong>Extra</strong> You can change the hex color to "random" then its choose a randomly color every time
+```css
+You can change the hex color to "random" then its choose a randomly color every time
 ```
