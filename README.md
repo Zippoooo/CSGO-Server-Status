@@ -8,8 +8,9 @@
 # Installation
 </div>
 Ok, This part very easy, So just move on after the steps.
-
-<h2><center>Config</center></h2>
+<div align="center">
+<h2>Config</h2>
+<div>
 Ok configuration is very very easy,
 You can find the config file <a href="https://github.com/Zippoooo/CSGO-Server-Status/blob/master/config.js">Here</a>
 
@@ -26,8 +27,9 @@ What is ture? True controls the arrangement of the message
 - config.true =     // Yea just leave it blank..
 + config.true = true
 ```
-
-<h3>Color</h3>
+<div align="center">
+<h2>Color</h2>
+</div>
 Color sets the color of the embed.
 <img src="https://i.imgur.com/2Sh5fxd.gif">
 We accept only <strong>Hex Colors</strong> More hex color code you can find <a href="https://htmlcolorcodes.com">here!</a>
@@ -40,8 +42,9 @@ We accept only <strong>Hex Colors</strong> More hex color code you can find <a h
 ```css
 You can change the hex color to "random" then its choose a randomly color every time
 ```
-
-<h3>Token</h3>
+<div align="center">
+<h2>Token</h2>
+</div>
 Ok, if I've already created an application <a href="https://discord.com/developers/applications">Here</a> just enter the token. If you do not continue the steps.
 
 
@@ -64,8 +67,9 @@ Ok, if I've already created an application <a href="https://discord.com/develope
 - config.token = "" // That not option you have to do that.
 + config.token = ""
 ```
-
-<h3>Servers</h3>
+<div align="center">
+<h2>Servers</h2>
+</div>
 Ok thats very very easy,
 Just continue the legality of it.
 
@@ -89,15 +93,17 @@ Just continue the legality of it.
         port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
         },] // The comma...
 ```
-<h3>Installing the packages</h3>
-
+<div align="center">
+<h2>Installing the packages</h2>
+</div>
 Please make sure you have <a href="https://nodejs.org/en/">Node.JS<a>
 
 Okay, Thats easyy.
 just open the "First Installation.bat" File.
 Yea thats it.
-
+<div align="center">
 <h3>Turning on the bot</h3>
+</div>
 Okay .. it's simple too, I'm sure you will succeed
 Open the RUN.bat file 😂
 
@@ -117,6 +123,6 @@ Then the channel id
 ```
 
 Now restart the bot. (Close the RUN.bat File and open it again.)
-
-<center><h1>We're doneeee</h1>
-
+<div align="center">
+<h1>We're doneeee</h1>
+</div>
