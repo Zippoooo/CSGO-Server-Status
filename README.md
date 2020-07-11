@@ -12,13 +12,13 @@ Ok, This part very easy, So just move on after the steps.
 Ok configuration is very very easy,
 You can find the config file <a href="https://github.com/Zippoooo/CSGO-Server-Status/blob/master/config.js">Here</a>
 
-**True**
+<h3>True</h3>
 What is ture? True controls the arrangement of the message
 
-Without true :
+<h5>Without True</h5>
 <img src="https://i.imgur.com/PZ3ghMe.png" width="200" height="290">
 
-With true:
+<h5> With True</h5>
 <img src="https://i.imgur.com/uyxsOF3.png" width="320" height="175">
 
 ```diff
@@ -26,4 +26,7 @@ With true:
 + config.true = true
 ```
 
-**Color**
+<h3>Color</h3>
+Color sets the color of the embed.
+<img src="https://i.imgur.com/2Sh5fxd.gif">
+We accept only **Hex Colors** More hex color code you can find <a herf="https://htmlcolorcodes.com">here!</a>
