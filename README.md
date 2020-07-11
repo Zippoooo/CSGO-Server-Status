@@ -10,7 +10,7 @@
 Ok, This part very easy, So just move on after the steps.
 <div align="center">
 <h2>Config</h2>
-<div>
+</div>
 Ok configuration is very very easy,
 You can find the config file <a href="https://github.com/Zippoooo/CSGO-Server-Status/blob/master/config.js">Here</a>
 
