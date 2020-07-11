@@ -43,20 +43,20 @@ You can change the hex color to "random" then its choose a randomly color every 
 <h3>Token</h3>
 Ok, if I've already created an application <a href="https://discord.com/developers/applications">Here</a> just enter the token. If you do not continue the steps.
 
-- [] Join <a href="https://discord.com/developers/applications">Here</a>
-- [] Click "New Application"
+- [ ] Join <a href="https://discord.com/developers/applications">Here</a>
+- [ ] Click "New Application"
 
-- [] Choose your bot name and click "Create"
-- [] Then go to "Bot" At the left menu
-- [] Then you can change the bot image and name here.
-- [] And just copy and token in the "Copy" button and enter it.
+- [ ] Choose your bot name and click "Create"
+- [ ] Then go to "Bot" At the left menu
+- [ ] Then you can change the bot image and name here.
+- [ ] And just copy and token in the "Copy" button and enter it. 
 
-- [] Know you can invite the bot to the server.
-- [] Click "OAuth2" At the left menu
-- [] Then in "Scopes" Click "bot"
-- [] And in "Bot Permissions" Click "Administrator"
-- [] Then copy the link and paste it in your browser.
-- [] Then just select the server and press "Countinue" (You should know how to add bot..)
+- [ ] Know you can invite the bot to the server.
+- [ ] Click "OAuth2" At the left menu
+- [ ] Then in "Scopes" Click "bot"
+- [ ] And in "Bot Permissions" Click "Administrator"
+- [ ] Then copy the link and paste it in your browser.
+- [ ] Then just select the server and press "Countinue" (You should know how to add bot..)
 
 ```diff
 - config.token = "" // That not oprtion you have to do that.
