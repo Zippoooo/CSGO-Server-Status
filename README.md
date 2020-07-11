@@ -5,9 +5,8 @@
 
 <img src="https://i.imgur.com/35uyFmf.png" alt="Example">
 </div>
-<div align="center">
-# Installation
-</div>
+# <div align="center"> Installation </div>
+
 Ok, This part very easy, So just move on after the steps.
 
 <h2><center>Config</center></h2>
