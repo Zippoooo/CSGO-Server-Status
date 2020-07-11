@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const { query } = require('gamedig');
+const config = require("./config.js")
 
 client.on('ready', () => {
   console.log(`Yoo im workinggg ${client.user.tag}!`);
@@ -15,7 +16,6 @@ client.on('message', msg => {
 let editor = async () => {
   console.clear()
     console.log("===Updating===")
-    let config = require("./config.js")
 
     const servers = config.servers
 
@@ -37,7 +37,7 @@ let editor = async () => {
           udpTimeout: 10000
         }).catch(() => null);
         if (!serverData) {
-          embed.addField(`<:TickXAlpaca:726597463720460340> ${name}`, `**Server Closed** \n ${ip}:${port}`, true)
+          embed.addField(`<:TickXAlpaca:726597463720460340> ${name}`, `**Server Closed** \n ${ip}:${port}`, config.true)
           console.log(`${name} Didn't Loaded!`)
           return { online: false, server: this };
         }
@@ -47,7 +47,7 @@ let editor = async () => {
             console.log(`${name} Loaded!`)
         }
 
-        embed.addField(`<:TickVAlpaca:726542853714739240> ${name}`, `**Players:** ${serverData.players.length}/${serverData.maxplayers} \n **Map:** ${serverData.map} \n steam://connect/${serverData.connect}`, true)
+        embed.addField(`<:TickVAlpaca:726542853714739240> ${name}`, `**Players:** ${serverData.players.length}/${serverData.maxplayers} \n **Map:** ${serverData.map} \n steam://connect/${serverData.connect}`, config.true)
 
 
         }
