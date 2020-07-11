@@ -75,23 +75,23 @@ Just continue the legality of it.
 
 ```diff
 - [{
-        name: "Server Name", // Something like "Surf Combat" "Retake"
-        ip: "IDK your server ip", // Server IP. No Port. No Domain. Only numbers!!!
-        port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
+        name: "Server Name",
+        ip: "IDK your server ip",
+        port: Your-server-port
         }[{
-        name: "Server Name", // Something like "Surf Combat" "Retake"
-        ip: "IDK your server ip", // Server IP. No Port. No Domain. Only numbers!!!
-        port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
+        name: "Server Name",
+        ip: "IDK your server ip",
+        port: Your-server-port
         }]]
 + [{
-        name: "Server Name", // Something like "Surf Combat" "Retake"
-        ip: "IDK your server ip", // Server IP. No Port. No Domain. Only numbers!!!
-        port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
+        name: "Server Name",
+        ip: "IDK your server ip",
+        port: Your-server-port
         },{
-        name: "Server Name", // Something like "Surf Combat" "Retake"
-        ip: "IDK your server ip", // Server IP. No Port. No Domain. Only numbers!!!
-        port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
-        },] // The comma...
+        name: "Server Name",
+        ip: "IDK your server ip",
+        port: Your-server-port
+        }] // The comma...
 ```
 <div align="center">
 <h2>Installing the packages</h2>
