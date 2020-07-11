@@ -43,6 +43,7 @@ You can change the hex color to "random" then its choose a randomly color every 
 <h3>Token</h3>
 Ok, if I've already created an application <a href="https://discord.com/developers/applications">Here</a> just enter the token. If you do not continue the steps.
 
+
 - [ ] Join <a href="https://discord.com/developers/applications">Here</a>
 - [ ] Click "New Application"
 
@@ -62,3 +63,28 @@ Ok, if I've already created an application <a href="https://discord.com/develope
 - config.token = "" // That not oprtion you have to do that.
 + config.token = "Idk Your token probably.."
 ```
+
+<h3>Servers</h>
+Ok thats very very easy,
+Just continue the legality of it.
+
+```diff
+- [{
+        name: "Server Name", // Something like "Surf Combat" "Retake"
+        ip: "IDK your server ip", // Server IP. No Port. No Domain. Only numbers!!!
+        port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
+        }[{
+        name: "Server Name", // Something like "Surf Combat" "Retake"
+        ip: "IDK your server ip", // Server IP. No Port. No Domain. Only numbers!!!
+        port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
+        }]]
++ [{
+        name: "Server Name", // Something like "Surf Combat" "Retake"
+        ip: "IDK your server ip", // Server IP. No Port. No Domain. Only numbers!!!
+        port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
+        },{
+        name: "Server Name", // Something like "Surf Combat" "Retake"
+        ip: "IDK your server ip", // Server IP. No Port. No Domain. Only numbers!!!
+        port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
+        },] // The comma...
+        ```
