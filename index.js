@@ -104,7 +104,10 @@ if (!serverData) {
         message.channel.send(embed)
     }
 
-
+if(message.content.startsWith("update")) {
+  message.delete()
+  editor()
+}
 
 })
 
