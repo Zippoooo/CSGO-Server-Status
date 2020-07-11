@@ -30,3 +30,7 @@ What is ture? True controls the arrangement of the message
 Color sets the color of the embed.
 <img src="https://i.imgur.com/2Sh5fxd.gif">
 We accept only <strong>Hex Colors</strong> More hex color code you can find <a herf="https://htmlcolorcodes.com">here!</a>
+
+
+
+<strong>Extra</strong> You can change the hex color to "random" then its choose a randomly color every time
