@@ -44,3 +44,18 @@ You can change the hex color to "random" then its choose a randomly color every 
 Ok, if I've already created an application <a href="https://discord.com/developers/applications">Here</a> just enter the token. If you do not continue the steps.
 
 - Join <a href="https://discord.com/developers/applications">Here</a>
+- Click "New Application"
+
+- Choose your bot name and click "Create"
+- Then go to "Bot" At the left menu
+- Then you can change the bot image and name here.
+- And just copy and token in the "Copy" button and enter it.
+
+- Know you can invite the bot to the server.
+
+```diff
+- config.token = "" // That not oprtion you have to do that.
++ config.token = "Idk Your token probably.."
+```
+  <label for="clientID">Client ID:</label>
+<input id="clientID" type="text" placeholder="Insert Client ID here" onkeyup="recalculate()" class="error"></form>
