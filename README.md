@@ -31,6 +31,11 @@ Color sets the color of the embed.
 <img src="https://i.imgur.com/2Sh5fxd.gif">
 We accept only <strong>Hex Colors</strong> More hex color code you can find <a herf="https://htmlcolorcodes.com">here!</a>
 
+```diff
+- config.color = "" // That not option you have to do that
++ config.color = "#FF0000" // That yellowwwwww
+```
 
-
+```
 <strong>Extra</strong> You can change the hex color to "random" then its choose a randomly color every time
+```
