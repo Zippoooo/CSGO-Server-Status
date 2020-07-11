@@ -1,9 +1,9 @@
 <div align="center">
 <center><img src="https://i.imgur.com/hAepRG1.png"  alt="ServerStatus.png"></center>
 
-<center><i>A <Strong>Counter-Strike: Global Offensive</strong> community server status bot for Discord.</i></center>
+<i>A <Strong>Counter-Strike: Global Offensive</strong> community server status bot for Discord.</i>
 
-<center><img src="https://i.imgur.com/35uyFmf.png" alt="Example"></center>
+<img src="https://i.imgur.com/35uyFmf.png" alt="Example">
 
 # <center>Installation
         </div>
