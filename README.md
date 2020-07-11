@@ -60,8 +60,8 @@ Ok, if I've already created an application <a href="https://discord.com/develope
 - [ ] Then just select the server and press "Countinue" (You should know how to add bot..)
 
 ```diff
-- config.token = "" // That not oprtion you have to do that.
-+ config.token = "Idk Your token probably.."
+- config.token = "" // That not option you have to do that.
++ config.token = ""
 ```
 
 <h3>Servers</h>
@@ -88,3 +88,33 @@ Just continue the legality of it.
         port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
         },] // The comma...
         ```
+<h3>Installing the packages</h3>
+
+Please make sure you have <a href="https://nodejs.org/en/">Node.JS<a>
+
+Okay, Thats easyy.
+just open the "First Installation.bat" File.
+Yea thats it.
+
+<h3>Turning on the bot</h3>
+Okay .. it's simple too, I'm sure you will succeed
+Open the RUN.bat file 😂
+
+Okay know join to the channel you want to show the message and type ``showhere``
+Then in the bot console you see Message ID and Channel ID Copy both of them and copy
+Message id to
+
+```diff
+- config.id = "" // That not option you have to do that.
++ config.id = ""
+```
+
+Then the channel id
+```diff
+- config.channelid = "" // That not option you have to do that.
++ config.channelid = ""
+```
+
+Now restart the bot. (Close the RUN.bat File and open it again.)
+
+<center><h1>We're doneeee</h1>
