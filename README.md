@@ -87,7 +87,7 @@ Just continue the legality of it.
         ip: "IDK your server ip", // Server IP. No Port. No Domain. Only numbers!!!
         port: Your-server-port // Server port. after the ip theres : this is the port. (You should know that...)
         },] // The comma...
-        ```
+```
 <h3>Installing the packages</h3>
 
 Please make sure you have <a href="https://nodejs.org/en/">Node.JS<a>
