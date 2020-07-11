@@ -101,7 +101,11 @@ if (!serverData) {
         }
         }
 
-        message.channel.send(embed)
+        message.channel.send(embed).then(msg => {
+         console.clear()
+          console.log(Message-ID:, msg.id)
+          console.log(Channel-ID:, msg.channel.id)
+        }
     }
 
 if(message.content.startsWith("update")) {
