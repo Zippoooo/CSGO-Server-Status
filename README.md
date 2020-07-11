@@ -52,10 +52,13 @@ Ok, if I've already created an application <a href="https://discord.com/develope
 - And just copy and token in the "Copy" button and enter it.
 
 - Know you can invite the bot to the server.
+- Click "OAuth2" At the left menu
+- Then in "Scopes" Click "bot"
+- And in "Bot Permissions" Click "Administrator"
+- Then copy the link and paste it in your browser.
+- Then just select the server and press "Countinue" (You should know how to add bot..)
 
 ```diff
 - config.token = "" // That not oprtion you have to do that.
 + config.token = "Idk Your token probably.."
 ```
-  <label for="clientID">Client ID:</label>
-<input id="clientID" type="text" placeholder="Insert Client ID here" onkeyup="recalculate()" class="error"></form>
