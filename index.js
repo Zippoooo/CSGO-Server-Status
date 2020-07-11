@@ -13,6 +13,10 @@ client.on('message', msg => {
   }
 });
 
+if(config.color === "random") {
+  config.color = Math.floor(Math.random()*16777215).toString(16);
+}
+
 let editor = async () => {
   console.clear()
     console.log("===Updating===")
@@ -22,7 +26,7 @@ let editor = async () => {
     const embed = new Discord.MessageEmbed()
     .setTimestamp()
     .setTitle("Server Status")
-    .setColor("#FFDD00")
+    .setColor(config.color)
 
     for (var server of servers) {
         let name = server.name
