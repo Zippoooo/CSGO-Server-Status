@@ -124,7 +124,7 @@ Then the channel id
 
 Now restart the bot. (Close the RUN.bat File and open it again.)
 <div align="center">
-<h1>We're doneeee</h1>
+<h2>We're doneeee</h2>
         
 # Commands
 
