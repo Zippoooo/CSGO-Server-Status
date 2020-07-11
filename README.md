@@ -64,7 +64,7 @@ Ok, if I've already created an application <a href="https://discord.com/develope
 + config.token = ""
 ```
 
-<h3>Servers</h>
+<h3>Servers</h3>
 Ok thats very very easy,
 Just continue the legality of it.
 
