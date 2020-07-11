@@ -130,6 +130,6 @@ Now restart the bot. (Close the RUN.bat File and open it again.)
 
 |Commands| Description |
 |--|--|
-| update | Thats command update the message |
+| update | Just updating the message |
 
 </div>
