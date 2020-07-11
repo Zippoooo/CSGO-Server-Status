@@ -1,4 +1,4 @@
-
+<div align="center">
 <center><img src="https://i.imgur.com/hAepRG1.png"  alt="ServerStatus.png"></center>
 
 <center><i>A <Strong>Counter-Strike: Global Offensive</strong> community server status bot for Discord.</i></center>
@@ -118,3 +118,4 @@ Then the channel id
 Now restart the bot. (Close the RUN.bat File and open it again.)
 
 <center><h1>We're doneeee</h1>
+</div>
