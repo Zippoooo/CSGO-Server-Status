@@ -4,9 +4,9 @@
 <i>A <Strong>Counter-Strike: Global Offensive</strong> community server status bot for Discord.</i>
 
 <img src="https://i.imgur.com/35uyFmf.png" alt="Example">
-</div>
-# <div align="center"> Installation </div>
 
+# Installation
+</div>
 Ok, This part very easy, So just move on after the steps.
 
 <h2><center>Config</center></h2>
