@@ -1,7 +1,7 @@
 
 <center><img src="https://i.imgur.com/hAepRG1.png"  alt="ServerStatus.png"></center>
 
-<center></h1> <i>A <Strong>Counter-Strike: Global Offensive</strong> community server status bot for Discord.</i></h1></center>
+<center><i>A <Strong>Counter-Strike: Global Offensive</strong> community server status bot for Discord.</i></center>
 
 <center><img src="https://i.imgur.com/35uyFmf.png" alt="Example"></center>
 
