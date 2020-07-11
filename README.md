@@ -41,4 +41,4 @@ You can change the hex color to "random" then its choose a randomly color every 
 ```
 
 <h3>Token</h3>
-Ok, if I've already created an application <a herf="https://discord.com/developers/applications">Here</a> then just enter the token. If you do not continue the steps.
+Ok, if I've already created an application <a href="https://discord.com/developers/applications">Here</a> then just enter the token. If you do not continue the steps.
