@@ -1,5 +1,7 @@
 var config = {};
 
+config.true = "" // Controls the arrangement of the message. More information in the docs.
+
 config.color = "" // Only Hex color / Example : #FFFF00 (Thats yellow...) / More colors in this site https://htmlcolorcodes.com
 
 config.token = "" // Bot token example in the docs.
