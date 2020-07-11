@@ -100,7 +100,7 @@ Yea thats it.
 Okay .. it's simple too, I'm sure you will succeed
 Open the RUN.bat file 😂
 
-Okay know join to the channel you want to show the message and type ``showhere``
+Okay now join to the channel you want to show the message and type ``showhere``
 Then in the bot console you see Message ID and Channel ID Copy both of them and copy
 Message id to
 
