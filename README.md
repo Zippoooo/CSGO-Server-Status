@@ -133,3 +133,4 @@ Now restart the bot. (Close the RUN.bat File and open it again.)
 | update | Just updating the message |
 
 </div>
+<h2>Powered By CL2Toast</h2>
